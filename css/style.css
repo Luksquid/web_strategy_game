@@ -1,0 +1,1341 @@
+body
+{
+	min-width: 1120px;
+	min-width: 1519px;
+	width: 100%;
+	font-family: 'Cinzel', serif;
+	background-image: url('../img/tla/drewno.png');
+	overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+#glownyDiv
+{
+	width: 100%;
+    height: 100vh;
+	min-width: 1100px;
+}
+
+#tytul
+{
+	width: 1000px;
+	font-family: 'Metamorphous';
+	font-size: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	color: #fff;
+}
+
+#opis
+{
+	width: 1200px;
+	font-family: 'Metamorphous';
+	font-size: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	color: #fff;
+}
+
+#gornyPasek
+{
+	min-width: 1100px;
+	height: 50px;
+	background-color: #918277;
+}
+
+#infoGracz
+{
+	height: 40px;
+	width: 190px;
+	padding: 10px 20px 10px 10px;
+	background-color: #aeaba1;
+	text-align: right;
+	float: left;
+	margin: 5px;
+	margin-left: 10px;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+#wyloguj
+{
+	height: 20px;
+	width: 100px;
+	padding: 10px;
+	margin-right: 0;
+	background-color: #1e81eb;
+	text-align: center;
+	float: right;
+	margin: 5px;
+	margin-right: 10px;
+}
+
+#wyloguj:hover
+{
+	background-color: #2089fa;
+}
+
+#pasekBoczny
+{
+	width: 200px;
+	height: 100vh;
+	background-color: #3b1b13;
+	background-image: url('../img/tla/bok.png');
+	float: left;
+}
+
+#zawartosc
+{
+	width: 100%;
+	float: left;
+	padding: 40px;
+	color: #ffffff;
+	font-family: 'Spectral', serif;
+	overflow: auto;
+}
+
+#zawartosc::-webkit-scrollbar {
+  width: 0.2rem;
+  background-color: transparent;
+}
+
+#zawartosc::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+#formularzRejestracji
+{
+	width: 380px;
+	height: 380px;
+	box-sizing: border-box;
+	padding: 30px;
+	float: left;
+	margin-right: 70px;
+}
+
+#formularzLogowania
+{
+	width: 380px;
+	height: 250px;
+	box-sizing: border-box;
+	padding: 30px;
+	float: left;
+}
+
+#menuDlugiDomObraz
+{
+	background-image: url("../img/menu/dlugiDom.jpg");
+}
+
+#menuSwiatyniaObraz
+{
+	background-image: url("../img/menu/swiatynia.jpg");
+}
+
+#menuPortObraz
+{
+	background-image: url("../img/menu/port.jpg");
+}
+
+#menuKuzniaObraz
+{
+	background-image: url("../img/menu/kuznia.jpg");
+}
+
+#menuFarmaObraz
+{
+	background-image: url("../img/menu/farma.jpg");
+}
+
+#menuChataDrwalaObraz
+{
+	background-image: url("../img/menu/chataDrwala.jpg");
+}
+
+#menuDomObraz
+{
+	background-image: url("../img/menu/dom.jpg");
+}
+
+#menu
+{
+	
+}
+
+#nowyBudynek
+{
+	width: 700px;
+	height: 150px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	border: 5px solid #aeaba1;
+	background-color: rgba(144, 141, 131, 0.6);
+	padding: 25px;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+#nowyBudynek:hover
+{
+	background-color: rgba(144, 141, 131, 0.8);
+	cursor: pointer;
+}
+
+#przyciskCofnij
+{
+	width: 180px;
+	heihgt: 40px;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #3b1b13;
+	text-align: center;
+	margin: 15px 5px 5px 10px;
+	margin-left: 10px;
+	border: 5px solid #201408;
+	font-size: 17px;
+	font-weight: 600;
+	color: #b0b0b0;
+}
+
+#przyciskCofnij:hover
+{
+	transform: scale(1.07);
+	cursor: pointer;
+}
+
+#nowaSwiatynia
+{
+	width: 1000px;
+	height: 600px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	border: 5px solid #aeaba1;
+	background-color: rgba(144, 141, 131, 0.6);
+	padding: 25px;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+#nowaSwiatynia:hover
+{
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+#budynekProcesy
+{
+	background-color: rgba(59,27,19,0.6);
+	width: 610px;
+	height: 470px;
+	padding: 15px 30px 30px 30px;
+	border-radius: 10px;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	font-size: 22px;
+}
+
+#budynekGrafika
+{
+	width: 240px;
+	height: 240px;
+	margin-bottom: 20px;
+	float: left;
+	border-box: box-sizing;
+	border: 5px solid rgba(59,27,19,1);;
+}
+
+#budynekPostep
+{
+	background-color: rgba(59,27,19,0.6);
+	width: 230px;
+	height: 250px;
+	margin: 0 0 20px 20px;
+	float: left;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#budynekPostaci
+{
+	background-color: rgba(59,27,19,0.6);
+	width: 440px;
+	height: 340px;
+	float: left;
+	clear: both;
+	border-radius: 10px;
+	border-box: box-sizing;
+	padding: 10px 30px 30px 30px;
+	font-family: 'Cinzel';
+	font-size: 20px;
+	overflow-y: auto;
+}
+
+#budynekPostaci::-webkit-scrollbar {
+  width: 0rem;
+  background-color: transparent;
+}
+
+#budynekPostaci::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+#nowyPracownik
+{
+	width: 440px;
+	height: 90px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	border: 3px solid #aeaba1;
+	background-color: rgba(144, 141, 131, 0.6);
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+#nowyPracownik:hover
+{
+	background-color: rgba(144, 141, 131, 0.8);
+	cursor: pointer;
+}
+
+#nowyMieszkaniec
+{
+	width: 440px;
+	height: 90px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	border: 3px solid #aeaba1;
+	background-color: rgba(144, 141, 131, 0.6);
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+#nowyMieszkaniec:hover
+{
+	background-color: rgba(144, 141, 131, 0.8);
+	cursor: pointer;
+}
+
+#budynekPostaci
+{
+	background-color: rgba(59,27,19,0.6);
+	width: 440px;
+	height: 340px;
+	float: left;
+	clear: both;
+	border-radius: 10px;
+	border-box: box-sizing;
+	padding: 10px 30px 30px 30px;
+	font-family: 'Cinzel';
+	font-size: 20px;
+}
+
+#dlugiDomMenu
+{
+	width: 620px;
+	height: 620px;
+	background-image: url('../img/budynki/dlugiDom.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	float: left;
+	margin-left: 20px;
+}
+
+#dlugiDomStatystyki, #dlugiDomWyprawy
+{
+	background-color: rgba(59, 27, 19, 0.9);
+	width: 260px;
+	height: 50px;
+	margin: 440px 0 30px 34px;
+	float: left;
+	font-family: 'Cinzel';
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#dlugiDomStatystyki:hover, #dlugiDomWyprawy:hover
+{
+	cursor: pointer;
+	scale: 1.1;
+}
+	
+#usunBudynek
+{
+	background-color: rgba(59,27,19,0.6);
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 115px;
+	border: 3px solid rgba(255,0,0,0.9);
+	box-sizing: border-box; 
+	font-family: 'Cinzel';
+	font-size: 25px;
+	padding-top: 8px;
+}
+
+#usunBudynek:hover
+{
+	background-color: rgba(212, 25, 25,0.3);
+	cursor: pointer;	
+}
+
+#ikonaUsunBudynek
+{
+	width: 75px;
+	height: 75px;
+	border-radius: 25px;
+	float: left;
+	margin: 10px 10px 10px 20px;
+}
+
+#budynekPostacKomunikat
+{
+	width: 200px;
+	height: 30px;
+	float: right;
+	margin: 30px;
+}
+
+#dodajPracownikaIkona
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 25px 0 0 25px;
+	float: left;
+	margin: 15px 0 10px 15px;
+}
+
+#dodajMieszkancaIkona
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 25px 0 0 25px;
+	float: left;
+	margin: 15px 0 10px 15px;
+}
+
+#licznik
+{
+	margin-top: 50px; 
+	margin-bottom: 45px; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#zewnatrz
+{
+	width: 117px;
+	height: 117px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+#numer
+{
+	position: absolute;
+	margin: 40px 0 0 2px;
+	font-family: 'Cinzel';
+	font-size: 20px;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+}
+
+#srodek
+{
+	width: 102px;
+	height: 102px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 0 30px #aeaba1, 0 0 0 40px transparent; /* Pierścień ma kolor #3498db */
+}
+
+#postepProdukt
+{
+	text-align: center;
+	margin-top: 18px;
+	font-family: 'Spectral', serif;
+	font-size: 22px;
+}
+
+#zakonczProcesPrzycisk
+{
+    color: #000;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+	margin-top: -20px;
+    cursor: pointer;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	color: #aeaba1;
+}
+
+#zakonczProcesPrzycisk:hover
+{
+	cursor: pointer;
+	scale: 1.3;
+}
+
+#menuSwiatynia:hover
+{
+	cursor: pointer;
+}
+
+#swiatyniaProcesy, #swiatyniaOpis
+{
+	background-color: rgba(59,27,19,0.6);
+	width: 535px;
+	height: 255px;
+	padding: 15px 10px 30px 10px;
+	border-radius: 10px;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	font-size: 22px;
+}
+
+#swiatyniaImg
+{
+	width: 610px;
+	height: 610px;
+	border: 5px solid rgba(59,27,19,1);
+	float: left;
+	margin-right: 20px;
+}
+
+#zbrojownia
+{
+	margin: 20px 60px 0 60px;
+}
+
+#popupWyprawy
+{
+	background-color: rgba(59,27,19,0.95);
+	width: 1210px;
+	height: 600px;
+    position: absolute;
+    top: 54%;
+    left: 56.5%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+#popupWyprawyLewy
+{
+	float: left;
+	height: 560px;
+	width: 310px;
+	margin-right: 40px;
+	background-color: rgba(150,150,150,0.4);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#popupWyprawyPrawy
+{
+	float: left;
+	height: 560px;
+	width: 780px;
+	background-color: rgba(150,150,150,0.4);
+	border-radius: 10px;
+	padding: 20px;
+	overflow-y: auto;
+	font-size: 20px;
+}
+
+#popupWyprawyPrawy::-webkit-scrollbar 
+{
+   width: 0;
+   background-color: transparent;
+}
+
+#popupWyprawyPrawy::-webkit-scrollbar-thumb
+{
+    background-color: transparent;
+}
+
+#popupWyprawyDodaj
+{
+	height: 25px;
+	padding: 20px;
+	width: 270px;
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+}
+
+#popupWyprawyDodaj:hover
+{
+	cursor: pointer;
+	scale: 1.05;
+}
+
+circle
+{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 30px;
+	stroke-dashoffset: 472;
+	stroke-dasharray: 472;
+}
+
+svg
+{
+	position: absolute;
+	top: 1;
+	left: 1;
+	transform: rotate(-90deg);
+}
+
+.infoZasob
+{
+	height: 40px;
+	width: 100px;
+	background-color: #6c3321;
+	text-align: left;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-radius: 7px;
+	font-family: 'Metamorphous';
+	font-size: 15px;
+}
+
+.infoZasobIlosc
+{
+	float: left;
+	margin: 10px 5px 10px 10px;
+	color: #ebebeb;
+}
+
+.menuOpcja
+{
+	width: 1000px;
+	height: 170px;
+	background-color: #aeaba1;
+	border: 2px solid #aeaba1;
+	margin-bottom: 25px;
+	border-radius: 25px;
+}
+
+.menuOpcja:hover
+{
+	box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.5);
+	transform: scale(1.02);
+}
+
+.menuImg
+{
+	width: 600px;
+	height: 170px;
+	border-radius: 25px 0 0 25px;
+	box-sizing: border-box;
+	padding: 30px;
+	font-family: 'Cinzel';
+	font-size: 30px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+	color: #ffffff;
+	background-size: cover;
+	float: left;
+}
+
+.menuStatystyki
+{
+	width: 400px;
+	height: 170px;	
+	box-sizing: border-box;
+	border-radius: 0 25px 25px 0;
+	padding: 25px 25px 25px 50px;
+	font-size: 27px;
+	font-family: 'Spectral', serif;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	float: left;
+}
+
+.MenuBudynek
+{
+	width: 700px;
+	height: 150px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	border: 5px solid #aeaba1;
+	background-color: rgba(89, 58, 40, 0.9);
+	padding: 47px 20px 20px 60px;
+	font-size: 27px;
+	margin-bottom: 20px;
+}
+
+.MenuBudynek:hover
+{
+	background-color: rgba(89, 58, 40, 1);
+	scale: 1.05;
+}
+
+.link
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.budynekPostac
+{
+	width: 440px;
+	height: 90px;
+	background-color: rgba(174,171,161,0.7);
+	border-radius: 25px;
+	margin-top: 14px;
+	
+}
+
+.budynekPostac2
+{
+	width: 440px;
+	height: 90px;
+	background-color: rgba(174,171,161,1);
+	border-radius: 25px;
+	margin-top: 14px;
+	
+}
+
+.budynekPostac2:hover
+{
+	cursor: pointer;
+}
+
+.budynekPostac2:hover
+{
+	scale: 1.1;
+}
+
+.budynekPostacObraz
+{
+	width: 90px;
+	height: 90px;
+	border-radius: 25px 0 0 20px;
+	float: left;
+}
+
+.budynekPostacImie
+{
+	width: 150px;
+	height: 30px;
+	padding: 30px;
+	float: left;
+	text-align: left;
+	font-size: 20px;
+}
+
+.dlugiDomPostacImie
+{
+	width: 150px;
+	height: 30px;
+	padding: 30px;
+	float: left;
+	text-align: left;
+	font-size: 20px;
+}
+
+.dlugiDomPostacImie:hover
+{
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.budynekPostacImie
+{
+	width: 150px;
+	height: 30px;
+	padding: 30px;
+	float: left;
+	text-align: left;
+	font-size: 20px;
+}
+
+
+.budynekPostacImieDom
+{
+	width: 150px;
+	height: 30px;
+	padding: 30px;
+	float: left;
+	text-align: left;
+}
+
+.budynekPostacImieDom:hover
+{
+	margin-top: -5px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.usunPracownika
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 0 25px 25px 0;
+	float: right;
+	margin: 15px 20px 15px 0;
+	opacity: 0.5;
+}
+
+.usunPracownika:hover
+{
+	opacity: 1;
+	scale: 1.15;
+	cursor: pointer;
+}
+
+.usunMieszkanca
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 0 25px 25px 0;
+	float: right;
+	margin: 15px 20px 15px 0;
+	opacity: 0.5;
+}
+
+.usunMieszkanca:hover
+{
+	opacity: 1;
+	scale: 1.15;
+	cursor: pointer;
+}
+
+.popup
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.popupPracownicy
+{
+	background-color: rgba(145,130,119,0.9);
+	min-width: 460px;
+	max-height: 550px;
+	overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	font-size: 23px;
+	color: #fff;
+}
+
+.popupMieszkancy
+{
+	background-color: rgba(145,130,119,0.9);
+	min-width: 460px;
+	max-height: 550px;
+	overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	font-size: 23px;
+	color: #fff;
+}
+
+.popupUsunBudynek
+{
+	background-color: rgba(145,130,119,0.9);
+	width: 530px;
+	height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 23px;
+}
+
+.popupZamknij
+{
+    color: #000;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+	margin-top: -20px;
+    cursor: pointer;
+	text-align: center;
+}
+
+.popupKomunikat
+{
+	background-color: rgba(145,130,119,0.9);
+	width: 530px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.popupKomunikatZamknij
+{
+	height: 15px;
+	width: 100px;
+	float: left;
+	align-items: center; 
+	padding: 13px;
+	background-color: rgba(59,27,19,0.9);
+	font-family: 'Cinzel';
+	color: #fff;
+	font-size: 15px;
+	margin: 15px 0 0 200px;
+	
+}
+
+.popupKomunikatZamknij:hover
+{
+	cursor: pointer;
+}
+
+.popupStatystyki
+{
+	background-color: rgba(145,130,119,0.9);
+	min-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.popupStatystykiOsady
+{
+	background-color: rgba(145,130,119,0.9);
+	width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 50px 30px 50px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.popupStatystykiImg
+{
+	height: 200px;
+	width: 200px;
+	border: 5px solid #3b1b13;
+}
+
+.popupStatystykiTekst
+{
+	text-align: left;
+}
+
+.popupStatystykiDiv
+{
+	float: left;
+	font-size: 20px;
+}
+
+.popupStatystykiZamknij
+{
+	height: 20px;
+	width: 100px;
+	float: left; 
+	padding: 9px;
+	background-color: rgba(59,27,19,0.9);
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 19px;
+	text-align: center;
+}
+
+.popupStatystykiZamknij:hover, .popupStatystykiUsun:hover
+{
+	scale: 1.12;
+	cursor: pointer;
+}
+
+.popupStatystykiUsun
+{
+	height: 20px;
+	width: 100px;
+	float: left; 
+	padding: 9px;
+	background-color: rgba(222, 40, 40, 0.9);
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 19px;
+}
+
+.popupNazwij
+{
+	background-color: rgba(145,130,119,0.9);
+	width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    text-align: center;
+	border-radius: 10px;
+	font-family: 'Spectral', serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+.popupNazwijZamknij
+{
+    color: #000;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+	margin-top: -20px;
+    cursor: pointer;
+	position: absolute;
+	top: 20px;
+	left: 430px;
+}
+
+.usunBudynekPopupPrzycisk
+{
+	height: 20px;
+	width: 200px;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgba(59,27,19,0.9);
+	font-family: 'Cinzel';
+	color: #fff;
+	font-size: 15px;
+}
+
+.usunBudynekPopupPrzycisk:hover
+{
+	cursor: pointer;
+}
+
+.statystykiOsadyText
+{
+	font-size: 25px;
+	margin: 5px 0 5px;
+}
+
+.proces
+{
+	width: 510px;
+	height: 20px;
+	background-color: rgba(122, 88, 61, 0.9);
+	border: 3px solid #564236;
+	border-radius: 10px;
+	margin: 10px 30px 0 30px;
+	padding: 15px 20px 20px 20px;
+	font-size: 20px;
+	font-family: 'Spectral', serif;
+	text-align: left;
+}
+
+.proces:hover
+{
+	cursor: pointer;
+}
+
+.budynekInfo
+{
+	float: left;
+}
+
+.procesImg
+{
+	margin: -12px 5px -7px 5px;
+}
+
+.wyswietlProcesy1
+{	width: 110px;
+	float: left;
+}
+
+.lodzie
+{
+	width: 556px;
+	height: 200px;
+	margin: 10px 30px 0 30px;
+}
+
+.procesProg
+{
+	width: 90px;
+	float: left;
+	margin: 15px 10px 15px 10px;
+	text-align: right;
+}
+
+.procesOpis
+{
+	width: 400px;
+	float: left;
+	margin: 15px 0 15px -10px;
+}
+
+.lodz
+{
+	width: 551px;
+	height: 70px;
+	border-radius: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	border-box: box-sizing;
+	font-family: 'Spectral', serif;
+	text-align: left;
+	background-color: rgba(174, 171, 161, 0.6);
+	border: 2px solid #aeaba1;
+}
+
+.lodz:hover
+{
+	cursor: pointer;
+	scale: 1.05;
+}
+
+.lodzImg
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 10px 0 0 10px;
+	float: left;
+}
+
+.lodzTekst
+{
+	width: 300px;
+	height: 30px;
+	padding: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+.procesSwiatynia
+{
+	width: 430px;
+	height: 20px;
+	background-color: rgba(122, 88, 61, 0.9);
+	border: 3px solid #564236;
+	border-radius: 10px;
+	margin: 10px 30px 0 30px;
+	padding: 15px 20px 20px 20px;
+	font-size: 20px;
+	font-family: 'Spectral', serif;
+	text-align: left;
+}
+
+.procesSwiatynia:hover
+{
+	cursor: pointer;
+}
+
+.dlugiDomEkwipunekBlok
+{
+	width: 209px;
+	height: 60px;
+	margin-top: 20px;
+	clear: both;
+}
+
+.dlugiDomEkwipunekImg
+{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
+.dlugiDomEkwipunekOpcja
+{
+	width: 80px;
+	height: 20px;
+	padding: 9px;
+	margin-top: 7px;
+	margin-right: 30px;
+	font-size: 15px;
+	float: right;
+	text-align: center;
+	background-color: rgba(59, 27, 19, 0.9);
+}
+
+.dlugiDomEkwipunekOpcja:hover
+{
+	cursor: pointer;
+	scale: 1.2;
+}
+
+.popupWyprawyZamknij
+{
+    color: #fff;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+	top: -3%;
+	left: 96%;
+    cursor: pointer;
+	text-align: center;
+	position: absolute;
+}
+
+.popupWyprawyZamknij:hover
+{
+	scale: 1.3;
+}
+
+.popupWyprawa
+{
+	height: 25px;
+	padding: 20px;
+	width: 270px;
+	background-color: rgba(255,255,255,0.25);
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.popupWyprawaOpcje
+{
+	height: 30px;
+	width: 210px;
+	float: left;
+	background-color: #3a302c;
+	padding: 10px;
+	margin: 20px 15px 0 15px;
+}
+
+.popupWyprawaOpcje
+{
+	cursor: pointer;
+	scale: 1.1;
+}
+	
+.popupWyprawa:hover
+{
+	cursor: pointer;
+}
+	
+input[type=email],
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	box-sizing: border-box;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	font-size: 15px;
+	padding: 7px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 12px;
+	font-family: 'Spectral', serif;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #1e81eb;
+	background-color: #e9f3e9;
+	font-family: 'Spectral', serif;
+	color: #1e81eb;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #1e81eb;
+	font-size:15px;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	font-family: 'Spectral', serif;
+}
+
+input[type=submit]:hover
+{
+	background-color: #2089fa;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+
+input:focus::-webkit-input-placeholder
+{
+    color: #1e81eb;
+}
+
+input::-moz-placeholder
+{
+    color: #999;
+}
+
+input:focus::-moz-placeholder
+{
+    color: #1e81eb;
+}
